@@ -1,0 +1,443 @@
+@media only screen and (min-width:200px) and (max-width: 575px) {
+
+
+.header-mid {
+    flex-direction: column;
+    width: 100%;
+}
+
+.buttons {
+    position: fixed;
+    bottom: 10px;
+} 
+
+.logo {
+    margin: auto;
+}
+
+.main-mid {
+    flex-direction: column;
+}
+
+.tagline>h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.tagline>p {
+    font-size: 20px;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    padding: 0px 0px 0px 15px;
+
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons2>button {
+    width: 45%;
+    padding: 10px;
+    gap: 20px;
+}
+
+form {
+    margin-top: 70px;
+}
+
+.achieve-mid {
+    align-items: center;
+    flex-direction: column;
+}
+
+.achieve-items {
+    width: 45%;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.achieve-items>h3 {
+    text-align: center;
+    margin: 5px;
+    font-size: 22px;
+}
+
+.achieve-items p {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+/*   key section   */
+
+.key-mid h1 {
+    text-align: center;
+}
+
+.key-item {
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.key-mid p {
+    text-align: center;
+}
+
+.key-items {
+    width: 95%;
+}
+
+.key-items img {
+    width: 25%;
+}
+
+.key-mid>h1 {
+    font-size: 25px;
+}
+
+.bookbutton>button {
+    padding: 15px;
+    font-size: 15px;
+}
+
+
+/*   career-section   */
+
+.career-mid {
+    padding: 0px 10px;
+}
+
+.career-mid>h1 {
+    font-size: 25px;
+}
+
+.career-item {
+    justify-content: center;
+    align-items: center;
+}
+
+.career-items {
+    flex-basis: 70%;
+}
+
+.career-items>h4 {
+    margin: 10px 0px;
+}
+
+/*   certificate-section    */
+
+.certificate-mid {
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificate-left>h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.certificate-left>p {
+    text-align: center;
+}
+
+.certificate-left {
+    width: 200px;
+}
+
+.cicon {
+    width: 230px;
+}
+
+.certificate-right img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+.ready-1 {
+    display: none;
+}
+
+.ready-mid-content h1 {
+    font-size: 25px;
+}
+
+.ready-mid-content p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#dm {
+    display: none;
+}
+
+#faq {
+    padding: 0;
+}
+
+.faq-mid {
+    margin: 0;
+    padding: 0px 10px;
+}
+
+.faq-mid h1 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+
+.why-dm-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-dm-mid {
+    padding: 0px 20px;
+}
+
+.why-dm-mid h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.why-dm-mid p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.student-mid {
+    padding: 20px;
+}
+
+.student-item {
+    flex-direction: column;
+}
+
+.student-mid h1 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* our-dm section  */
+.our-dm-mid {
+    padding: 0px 20px;
+}
+
+.our-dm-mid>ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-mid-ques {
+    gap: 0px;
+    flex-direction: column;
+}
+
+.our-dm-mid h1 {
+    font-size: 25px;
+}
+
+.our-dm-mid p {
+    font-size: 16px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width:575px) and (max-width: 1200px) {
+
+
+
+header {
+    padding: 10px 20px;
+}
+
+
+
+.tagline {
+    flex-basis: 50%;
+}
+
+header.mid {
+    margin: auto;
+}
+
+form {
+    width: 400px;
+    flex-basis: 60%;
+    padding: 10px 0px 0px 30px;
+}
+
+.tagline>h1 {
+    font-size: 30px;
+}
+
+.main-mid { 
+    gap: 50px;
+    padding: 0px 50px;
+}
+
+.buttons2>button {
+    width: 70%;
+    padding: 15px 20px;
+}
+
+/*  achieve section    */
+
+.achieve-items>h3 {
+    text-align: center;
+    margin: 5px;
+    font-size: 22px;
+}
+
+.achieve-items p {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/*    key section   */
+
+#key {
+    width: 100%;
+}
+
+.key-item {
+    justify-content: center;
+}
+
+.key-mid p {
+    text-align: center;
+}
+
+.key-items {
+    margin-left: 20px;
+    width: 40%;
+}
+
+.key-items>h3 {
+    font-size: 18px;
+}
+
+.key-items>h3>p {
+    margin: 0px;
+}
+
+.key-mid>h1 {
+    text-align: center;
+}
+
+
+/*  career section   */
+
+.career-item {
+    align-items: center;
+    justify-content: center;
+}
+
+.career-items {
+    flex-basis: 40%;
+}
+
+
+/* certificate section   */
+
+
+.certificate-mid {
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate-left>h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.certificate-left>p {
+    text-align: center;
+}
+
+
+#dm {
+    display: none;
+}
+
+
+#faq {
+    padding: 0;
+}
+
+.faq-mid {
+    margin: 0px auto;
+    padding: 0px 30px;
+}
+
+.faq-mid h1 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.why-dm-mid {
+    padding: 0px 20px;
+}
+
+.why-dm-mid h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.why-dm-mid p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.why-dm-item {
+    align-items: center;
+    justify-content: center;
+}
+
+.why-dm-items {
+    flex-basis: 30%;
+}
+
+.student-mid {
+    padding: 20px;
+}
+
+
+.our-dm-mid {
+    padding: 0px 30px;
+}
+
+.our-dm-mid>h1 {
+    font-size: 25px;
+}
+
+.student-mid>h1 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 10px 0px;
+}
+
+.our-dm-mid>p {
+    font-size: 16px;
+}
+
+
+
+}
